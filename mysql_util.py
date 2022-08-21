@@ -116,7 +116,7 @@ if __name__ == '__main__':
     # a = mysql.commit_data(sql)
 
     # 创建数据表
-    tablename = '爬中共教育'
+    tablename = '爬中公教育'
     sql = f"CREATE TABLE {tablename} (id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255), html VARCHAR(255))"
     print(sql)
     mysql.create_table(sql)
